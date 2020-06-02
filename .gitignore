@@ -3,3 +3,4 @@ runtime/
 __pycache__/
 stream_credentials.py
 *.weights
+*.log

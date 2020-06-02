@@ -12,10 +12,10 @@ logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S
 logging.debug('Starting app..')
 
 url = "data/videos/v0_fast.mp4"
-url = "data/videos/phone.mov"
-# url = "data/videos/phone_fast.mp4"
-url = "data/videos/v0.mp4"
-url = get_authenticated_stream_url()
+# url = "data/videos/phone.mov"
+url = "data/videos/phone_fast.mp4"
+# url = "data/videos/v0.mp4"
+# url = get_authenticated_stream_url()
 WIDTH = 700
 feed = VideoFeed(url, width=WIDTH, bw=False)
 detector = ObjectDetector()
@@ -71,8 +71,8 @@ def overlap(bowls, cats):
 
 show_video = True
 
-no_foodbowl_wait = 1
-no_cat_wait = 5
+no_foodbowl_wait = 0
+no_cat_wait = 0
 no_cat_session_end = 10
 
 eating_detection_time = 5 # if one of the eating indicators been in place for this time, we consider eating
