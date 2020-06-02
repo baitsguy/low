@@ -1,6 +1,6 @@
 ## Development Notes ##
 
-Documenting the development process for [UW CSEP 590C](https://docs.google.com/document/d/e/2PACX-1vRVecewhTEhIVcXXOf0iD0Okkm-DvgcBj7nHQFPgN9v1kbQ7gCkCn-VUE4Lz-p36pml0wIIQmI3begD/pub) review.
+*Documenting the development process for [UW CSEP 590C](https://docs.google.com/document/d/e/2PACX-1vRVecewhTEhIVcXXOf0iD0Okkm-DvgcBj7nHQFPgN9v1kbQ7gCkCn-VUE4Lz-p36pml0wIIQmI3begD/pub) review.*
 
 ### Project goal ###
 * Given a continuous video feed of a cat's feeding area, this application should be able to 
@@ -47,8 +47,8 @@ Data from cat/bowl images from the internet and videos I recorded was annotated 
 
 
 I trained the model for about 10k iterations (each iteration = 1 image) and the results were not promising.
-The model occasionally detected the expected objects, but not for the most part. Given enough data and
-time to train, I expected the model to perform well.
+The model occasionally detected the expected objects, but not for the most part. However, given enough data and
+time to train, I expect the model to perform well.
 
 ![pretrained YOLO issues](images/cvat_labeling.png)
 
